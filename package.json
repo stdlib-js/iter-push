@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/iter-push",
-  "version": "0.0.0",
+  "version": "0.0.7",
   "description": "Create an iterator which appends additional values to the end of a provided iterator.",
   "license": "Apache-2.0",
   "author": {
