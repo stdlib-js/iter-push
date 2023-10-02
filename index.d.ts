@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2019 The Stdlib Authors.
@@ -16,16 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { Iterator as Iter, IterableIterator } from '@stdlib/types/iter';
+
+// Define a union type representing both iterable and non-iterable iterators:
+type Iterator = Iter | IterableIterator;
 
 /**
-* Create an iterator which appends additional values to the end of a provided iterator.
+* Returns an iterator which appends additional values to the end of a provided iterator.
 *
-* @module @stdlib/iter-push
+* ## Notes
+*
+* -   If an environment supports `Symbol.iterator` **and** a provided iterator is iterable, the returned iterator is iterable.
+*
+* @param iterator - input iterator
+* @param items - items to append
+* @returns iterator
 *
 * @example
-* var array2iterator = require( '@stdlib/array-to-iterator' );
-* var iterPush = require( '@stdlib/iter-push' );
+* var array2iterator = require( `@stdlib/array/to-iterator` );
 *
 * var iter = iterPush( array2iterator( [ 1, 2 ] ), 3, 4 );
 *
@@ -44,12 +56,9 @@
 * var bool = iter.next().done;
 * // returns true
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function iterPush( iterator: Iterator, ...items: Array<any> ): Iterator;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = iterPush;
