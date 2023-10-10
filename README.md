@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterPush from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-push@esm/index.mjs';
+import iterPush from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-push@v0.1.1-esm/index.mjs';
 ```
 
 #### iterPush( iterator, ...items )
@@ -117,7 +117,7 @@ The returned [iterator][mdn-iterator-protocol] protocol-compliant object has the
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
-import iterPush from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-push@esm/index.mjs';
+import iterPush from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-push@v0.1.1-esm/index.mjs';
 
 // Create a seeded iterator for generating pseudorandom numbers:
 var rand = randu({
