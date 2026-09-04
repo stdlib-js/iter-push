@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-07-23)
+## Unreleased (2026-09-04)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`b04bbaf`](https://github.com/stdlib-js/stdlib/commit/b04bbafa83ab5f6cd8618a8f7cfc8290ed2c6623) - **docs:** update parameter types [(#14986)](https://github.com/stdlib-js/stdlib/pull/14986) _(by Philipp Burckhardt)_
 -   [`02d748a`](https://github.com/stdlib-js/stdlib/commit/02d748a8c61dcb97200e82857b2fde9b3ae84f83) - **bench:** refactor to use string interpolation in `iter/push` [(#10434)](https://github.com/stdlib-js/stdlib/pull/10434) _(by Sagar Ratna Chaudhary)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Philipp Burckhardt
 -   Sagar Ratna Chaudhary
 
 </section>
