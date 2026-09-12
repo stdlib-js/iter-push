@@ -1,5 +1,0 @@
-"use strict";var h=function(t,r){return function(){try{return r||t((r={exports:{}}).exports,r),r.exports}catch(u){throw (r=0, u)}};};var c=h(function(F,f){
-var s=require('@stdlib/utils-define-nonenumerable-read-only-property/dist'),p=require('@stdlib/assert-is-function/dist'),q=require('@stdlib/assert-is-iterator-like/dist'),o=require('@stdlib/symbol-iterator/dist'),x=require('@stdlib/error-tools-fmtprodmsg/dist');function v(t){var r,u,l,a,e;if(!q(t))throw new TypeError(x('0Pd46',t));for(r=[],e=1;e<arguments.length;e++)r.push(arguments[e]);return a=0,e=-1,u={},s(u,"next",g),s(u,"return",m),o&&p(t[o])&&s(u,o,d),u;function g(){var n;return a===2?{done:!0}:a===1?(e+=1,e>=r.length?(a=2,l):{value:r[e],done:!1}):(n=t.next(),n.done?(a=1,e+=1,e>=r.length?(a=2,n):(l=n,{value:r[e],done:!1})):{value:n.value,done:!1})}function m(n){return a=2,arguments.length?{value:n,done:!0}:{done:!0}}function d(){var n,i;for(n=[t[o]()],i=0;i<r.length;i++)n.push(r[i]);return v.apply(null,n)}}f.exports=v
-});var y=c();module.exports=y;
-/** @license Apache-2.0 */
-//# sourceMappingURL=index.js.map
